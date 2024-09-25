@@ -1,17 +1,28 @@
-//
-//  KinglifyInAppApp.swift
-//  KinglifyInApp
-//
-//  Created by Anish Shrestha on 24/09/2024.
-//
-
 import SwiftUI
+import KinglifyKit
 
 @main
 struct KinglifyInAppApp: App {
+       
+    @StateObject var kinglifyStoreKit = KinglifyStore(
+        prodIds:["pookie.pro.monthly","pookie.pro.yearly"]
+
+    );
+    
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            KinglifyAppWrapper(
+                content: ContentView(),
+                handler: kinglifyStoreKit
+            )
+            .environmentObject(kinglifyStoreKit)
+                       
+                           
+               
+                
+               
+                
         }
     }
 }

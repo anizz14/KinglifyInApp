@@ -11,6 +11,15 @@
 		1C2179C82CA2FA33002790B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179C72CA2FA33002790B8 /* ContentView.swift */; };
 		1C2179CA2CA2FA34002790B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2179C92CA2FA34002790B8 /* Assets.xcassets */; };
 		1C2179CD2CA2FA34002790B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2179CC2CA2FA34002790B8 /* Preview Assets.xcassets */; };
+		1C2179D62CA2FB96002790B8 /* KinglifyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1C2179D52CA2FB96002790B8 /* KinglifyKit */; };
+		1C2179D82CA3096E002790B8 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179D72CA3096E002790B8 /* PaywallView.swift */; };
+		1C2179DA2CA312B4002790B8 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179D92CA312B4002790B8 /* NetworkMonitor.swift */; };
+		1C2179DC2CA3245E002790B8 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179DB2CA3245E002790B8 /* ProductListView.swift */; };
+		1C2179DE2CA3247F002790B8 /* FinalPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179DD2CA3247F002790B8 /* FinalPaywallView.swift */; };
+		1C2179E02CA324EE002790B8 /* PurchaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179DF2CA324EE002790B8 /* PurchaseButton.swift */; };
+		1C2179E42CA3CDEB002790B8 /* SubscriptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179E32CA3CDEB002790B8 /* SubscriptionButton.swift */; };
+		1C2179E62CA3DC79002790B8 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2179E52CA3DC79002790B8 /* TestView.swift */; };
+		1C217A0E2CA42506002790B8 /* CustomWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C217A0D2CA42506002790B8 /* CustomWebview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,17 @@
 		1C2179C72CA2FA33002790B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C2179C92CA2FA34002790B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C2179CC2CA2FA34002790B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C2179D32CA2FA77002790B8 /* KinglifyKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KinglifyKit; path = ../../KinglifyKit; sourceTree = "<group>"; };
+		1C2179D72CA3096E002790B8 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		1C2179D92CA312B4002790B8 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		1C2179DB2CA3245E002790B8 /* ProductListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		1C2179DD2CA3247F002790B8 /* FinalPaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalPaywallView.swift; sourceTree = "<group>"; };
+		1C2179DF2CA324EE002790B8 /* PurchaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
+		1C2179E32CA3CDEB002790B8 /* SubscriptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionButton.swift; sourceTree = "<group>"; };
+		1C2179E52CA3DC79002790B8 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		1C217A072CA414D5002790B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1C217A0D2CA42506002790B8 /* CustomWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebview.swift; sourceTree = "<group>"; };
+		1C217A0F2CA44459002790B8 /* KinglifyInApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KinglifyInApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2179D62CA2FB96002790B8 /* KinglifyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +58,7 @@
 			children = (
 				1C2179C42CA2FA33002790B8 /* KinglifyInApp */,
 				1C2179C32CA2FA33002790B8 /* Products */,
+				1C2179D42CA2FB96002790B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +73,21 @@
 		1C2179C42CA2FA33002790B8 /* KinglifyInApp */ = {
 			isa = PBXGroup;
 			children = (
+				1C217A0F2CA44459002790B8 /* KinglifyInApp.entitlements */,
+				1C217A072CA414D5002790B8 /* Info.plist */,
+				1C2179D32CA2FA77002790B8 /* KinglifyKit */,
 				1C2179C52CA2FA33002790B8 /* KinglifyInAppApp.swift */,
 				1C2179C72CA2FA33002790B8 /* ContentView.swift */,
 				1C2179C92CA2FA34002790B8 /* Assets.xcassets */,
 				1C2179CB2CA2FA34002790B8 /* Preview Content */,
+				1C2179D72CA3096E002790B8 /* PaywallView.swift */,
+				1C2179DB2CA3245E002790B8 /* ProductListView.swift */,
+				1C2179D92CA312B4002790B8 /* NetworkMonitor.swift */,
+				1C2179E32CA3CDEB002790B8 /* SubscriptionButton.swift */,
+				1C2179DD2CA3247F002790B8 /* FinalPaywallView.swift */,
+				1C2179DF2CA324EE002790B8 /* PurchaseButton.swift */,
+				1C2179E52CA3DC79002790B8 /* TestView.swift */,
+				1C217A0D2CA42506002790B8 /* CustomWebview.swift */,
 			);
 			path = KinglifyInApp;
 			sourceTree = "<group>";
@@ -65,6 +98,13 @@
 				1C2179CC2CA2FA34002790B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C2179D42CA2FB96002790B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +123,9 @@
 			dependencies = (
 			);
 			name = KinglifyInApp;
+			packageProductDependencies = (
+				1C2179D52CA2FB96002790B8 /* KinglifyKit */,
+			);
 			productName = KinglifyInApp;
 			productReference = 1C2179C22CA2FA33002790B8 /* KinglifyInApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +154,9 @@
 				Base,
 			);
 			mainGroup = 1C2179B92CA2FA33002790B8;
+			packageReferences = (
+				1C217A082CA421C4002790B8 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 1C2179C32CA2FA33002790B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2179E02CA324EE002790B8 /* PurchaseButton.swift in Sources */,
+				1C2179DE2CA3247F002790B8 /* FinalPaywallView.swift in Sources */,
+				1C217A0E2CA42506002790B8 /* CustomWebview.swift in Sources */,
 				1C2179C82CA2FA33002790B8 /* ContentView.swift in Sources */,
+				1C2179DA2CA312B4002790B8 /* NetworkMonitor.swift in Sources */,
+				1C2179D82CA3096E002790B8 /* PaywallView.swift in Sources */,
 				1C2179C62CA2FA33002790B8 /* KinglifyInAppApp.swift in Sources */,
+				1C2179E62CA3DC79002790B8 /* TestView.swift in Sources */,
+				1C2179E42CA3CDEB002790B8 /* SubscriptionButton.swift in Sources */,
+				1C2179DC2CA3245E002790B8 /* ProductListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +323,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KinglifyInApp/KinglifyInApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KinglifyInApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FA794E3J5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KinglifyInApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +341,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KinglifyInApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookieapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,12 +354,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KinglifyInApp/KinglifyInApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KinglifyInApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FA794E3J5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KinglifyInApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KinglifyInApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookieapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,6 +402,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C217A082CA421C4002790B8 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C2179D52CA2FB96002790B8 /* KinglifyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KinglifyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C2179BA2CA2FA33002790B8 /* Project object */;
 }
